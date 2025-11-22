@@ -1,7 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 
 # For Hyprlock
-pidof swaylock || swaylock --image /home/nokiapapir/.config/hypr/wallpaper_effects/.wallpaper_current
+#pidof hyprlock || hyprlock -q
 
-#loginctl lock-session
+# Ensure weather cache is up-to-date before locking (Waybar/lockscreen readers)
+bash "$HOME/.config/hypr/UserScripts/WeatherWrap.sh" >/dev/null 2>&1
+
+loginctl lock-session
+

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 
 # GDK BACKEND. Change to either wayland or x11 if having issues
@@ -30,10 +30,11 @@ GDK_BACKEND=$BACKEND yad \
 " enter" "Terminal" "(kitty)" \
 " SHIFT enter" "DropDown Terminal" " Q to close" \
 " B" "Launch Browser" "(Default browser)" \
+" A" "Desktop Overview" "(AGS - if opted to install)" \
 " D" "Application Launcher" "(rofi-wayland)" \
-" T" "Open File Manager" "(Thunar)" \
+" E" "Open File Manager" "(Thunar)" \
 " S" "Google Search using rofi" "(rofi)" \
-"ALT Q" "close active window" "(not kill)" \
+" Q" "close active window" "(not kill)" \
 " Shift Q " "kills an active window" "(kill)" \
 " ALT mouse scroll up/down   " "Desktop Zoom" "Desktop Magnifier" \
 " Alt V" "Clipboard Manager" "(cliphist)" \
@@ -52,14 +53,14 @@ GDK_BACKEND=$BACKEND yad \
 " CTRL SHIFT Print" "screenshot timer 10 secs " "(grim)" \
 "ALT Print" "Screenshot active window" "active window only" \
 "CTRL ALT P" "power-menu" "(wlogout)" \
-" L" "screen lock" "(hyprlock)" \
+"CTRL ALT L" "screen lock" "(hyprlock)" \
 "CTRL ALT Del" "Hyprland Exit" "(NOTE: Hyprland Will exit immediately)" \
 " SHIFT F" "Fullscreen" "Toggles to full screen" \
 " CTL F" "Fake Fullscreen" "Toggles to fake full screen" \
 " ALT L" "Toggle Dwindle | Master Layout" "Hyprland Layout" \
 " SPACEBAR" "Toggle float" "single window" \
 " ALT SPACEBAR" "Toggle all windows to float" "all windows" \
-" ALT O" "Toggle Blur" "normal or more blur" \
+" ALT O" "Toggle Blur" "normal or less blur" \
 " CTRL O" "Toggle Opaque ON or OFF" "on active window only" \
 " Shift A" "Animations Menu" "Choose Animations via rofi" \
 " CTRL R" "Rofi Themes Menu" "Choose Rofi Themes via rofi" \
