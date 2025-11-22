@@ -895,7 +895,7 @@ printf "\n%.0s" {1..1}
 echo "${MAGENTA}By default only a few wallpapers are copied${RESET}..."
 
 while true; do
-  echo -n "${CAT} Would you like to download additional wallpapers? ${WARN} This is 1GB in size (y/n): "
+  echo -n "${CAT} Would you like to download additional wallpapers? ${WARN} This is 84MB in size (y/n): "
   read WALL
   
   case $WALL in
