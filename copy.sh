@@ -1,5 +1,5 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  #
+# /* ---- 💫 https://github.com/tuandatdavid 💫 ---- */  #
 
 clear
 wallpaper=$HOME/.config/hypr/wallpaper_effects/.wallpaper_current
@@ -248,41 +248,6 @@ if command -v ags >/dev/null 2>&1; then
 fi
 
 printf "\n%.0s" {1..1}
-
-# Checking if neovim or vim is installed and offer user if they want to make as default editor
-# Function to modify the ENVariables.conf file
-update_editor() {
-    local editor=$1
-    sed -i "s/#env = EDITOR,.*/env = EDITOR,$editor #default editor/" config/hypr/UserConfigs/01-UserDefaults.conf
-    echo "${OK} Default editor set to ${MAGENTA}$editor${RESET}." 2>&1 | tee -a "$LOG"
-}
-
-EDITOR_SET=0
-# Check for neovim if installed
-if command -v nvim &> /dev/null; then
-    printf "${INFO} ${MAGENTA}neovim${RESET} is detected as installed\n"
-    echo -n "${CAT} Do you want to make ${MAGENTA}neovim${RESET} the default editor? (y/N): "
-    read EDITOR_CHOICE
-    if [[ "$EDITOR_CHOICE" == "y" || "$EDITOR_CHOICE" == "Y" ]]; then
-        update_editor "nvim"
-        EDITOR_SET=1
-    fi
-fi
-
-printf "\n"
-
-# Check for vim if installed, but only if neovim wasn't chosen
-if [[ "$EDITOR_SET" -eq 0 ]] && command -v vim &> /dev/null; then
-    printf "${INFO} ${MAGENTA}vim${RESET} is detected as installed\n"
-    echo -n "${CAT} Do you want to make ${MAGENTA}vim${RESET} the default editor? (y/N): "
-    read EDITOR_CHOICE
-    if [[ "$EDITOR_CHOICE" == "y" || "$EDITOR_CHOICE" == "Y" ]]; then
-        update_editor "vim"
-        EDITOR_SET=1
-    fi
-fi
-
-printf "\n"
 
 # Action to do for better appearance
 while true; do
@@ -936,7 +901,7 @@ while true; do
   case $WALL in
     [Yy])
       echo "${NOTE} Downloading additional wallpapers..."
-      if git clone "https://github.com/JaKooLit/Wallpaper-Bank.git"; then
+      if git clone "https://github.com/tuandatdavid/Wallpaper-Bank.git"; then
           echo "${OK} Wallpapers downloaded successfully." 2>&1 | tee -a "$LOG"
 
           # Check if wallpapers directory exists and create it if not
