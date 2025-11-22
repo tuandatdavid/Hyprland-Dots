@@ -110,7 +110,7 @@
 	"return-type": "json",
 	"exec": "$HOME/.config/hypr/scripts/Hyprsunset.sh status",
 	"interval": 3,
-	"format": "{text}",
+	"format": "󰔎",
 	"min-length": 2,
 	"on-click": "$HOME/.config/hypr/scripts/Hyprsunset.sh toggle",
 	"tooltip": true,
