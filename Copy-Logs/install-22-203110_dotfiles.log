@@ -1,0 +1,76 @@
+[33m[NOTE](B[m kb_layout [35mcz(B[m configured in settings.
+[32m[OK](B[m You have chosen < 1440p resolution.
+[33m[NOTE](B[m You chose not to change to 12H format.
+[32m[OK](B[m Rainbow borders are now disabled.
+[33m[NOTE](B[m - Backed up ags to /var/home/nokiapapir/.config/ags-backup-back-up_1122_2031.
+[32m[OK](B[m - Replaced ags with new configuration.
+[33m[NOTE](B[m - Backed up fastfetch to /var/home/nokiapapir/.config/fastfetch-backup-back-up_1122_2031.
+[32m[OK](B[m - Replaced fastfetch with new configuration.
+[33m[NOTE](B[m - Backed up kitty to /var/home/nokiapapir/.config/kitty-backup-back-up_1122_2031.
+[32m[OK](B[m - Replaced kitty with new configuration.
+[33m[NOTE](B[m - Backed up rofi to /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031.
+[32m[OK](B[m - Replaced rofi with new configuration.
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_LonerOrZ.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-10-Fancy.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-10-Fancy-v2.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-11-Win11-list-dark.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-11-Win11-list-light.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-12-TOP-Docu.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-13-Vertical.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-14.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-15-solarized.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-1.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-2-Dark.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-2-Light.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-3-FullScreen-v1.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-3-Fullscreen-v2.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-4.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-5.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-6.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-7.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-8.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Copying /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/themes/KooL_style-9.rasi to /var/home/nokiapapir/.config/rofi/themes/
+Restoring /var/home/nokiapapir/.config/rofi-backup-back-up_1122_2031/0-shared-fonts.rasi to /var/home/nokiapapir/.config/rofi/
+[33m[NOTE](B[m - Backed up swaync to /var/home/nokiapapir/.config/swaync-backup-back-up_1122_2031.
+[32m[OK](B[m - Replaced swaync with new configuration.
+[33m[NOTE](B[m - Skipping [33mwaybar(B[m config replacement.
+[32m[OK](B[m - Restored directory: [35mMonitor_Profiles(B[m
+[32m[OK](B[m - Restored directory: [35manimations(B[m
+[32m[OK](B[m - Restored directory: [35mwallpaper_effects(B[m
+[32m[OK](B[m - Restored file: [35mmonitors.conf(B[m
+[32m[OK](B[m - Restored file: [35mworkspaces.conf(B[m
+[33m[NOTE](B[m - Skipped restoring 01-UserDefaults.conf.
+[33m[NOTE](B[m - Skipped restoring ENVariables.conf.
+[32m[OK](B[m - LaptopDisplay.conf restored!
+[32m[OK](B[m - Laptops.conf restored!
+[32m[OK](B[m - Startup_Apps.conf restored!
+[32m[OK](B[m - UserDecorations.conf restored!
+[32m[OK](B[m - UserAnimations.conf restored!
+[33m[NOTE](B[m - Skipped restoring UserKeybinds.conf.
+[32m[OK](B[m - UserSettings.conf restored!
+[32m[OK](B[m - WindowRules.conf restored!
+[33m[NOTE](B[m - Skipped restoring RofiBeats.sh.
+[33m[NOTE](B[m - Skipped restoring Weather.py.
+[33m[NOTE](B[m - Skipped restoring Weather.sh.
+[33m[NOTE](B[m - Skipped restoring hyprlock.conf.
+[33m[NOTE](B[m - Skipped restoring hypridle.conf.
+[32m[OK](B[m Some [35mwallpapers(B[m copied successfully!
+[33m[NOTE](B[m You chose not to download additional wallpapers.
+[[1m[34mI[39m[0m] [1m[35mimage[39m[0m: .wallpaper_current
+[[1m[34mI[39m[0m] [1m[35mimage parser[39m[0m: Using [94m[1mKmeans[0m[39m backend parser
+[[1m[34mI[39m[0m] [1m[35mthreshold[39m[0m: Using a threshold of 11 in between colors.
+[[1m[34mI[39m[0m] [1m[35mcolorspace[39m[0m: Using [32m[1mLabMixed[0m[39m colorspace variation
+[[1m[34mI[39m[0m] [1m[35mscheme palette[39m[0m: Using [94m[1mDark16[0m[39m palette
+
+[48;2;71;77;77m    [49m[48;2;2;33;31m    [49m[48;2;2;40;36m    [49m[48;2;3;87;47m    [49m[48;2;4;85;74m    [49m[48;2;6;125;107m    [49m[48;2;6;138;118m    [49m[48;2;123;211;198m    [49m
+[48;2;86;148;138m    [49m[48;2;3;44;41m    [49m[48;2;3;53;48m    [49m[48;2;4;116;62m    [49m[48;2;6;114;99m    [49m[48;2;7;167;143m    [49m[48;2;8;184;157m    [49m[48;2;123;211;198m    [49m
+
+[[1m[34mI[39m[0m] [1m[35mtemplates[39m[0m: Writing templates..
+  * Templated [1mhypr[0m to '[3m/var/home/nokiapapir/.config/hypr/wallust/wallust-hyprland.conf[0m'
+  * Templated [1mwaybar[0m to '[3m/var/home/nokiapapir/.config/waybar/wallust/colors-waybar.css[0m'
+  * Templated [1mkitty[0m to '[3m/var/home/nokiapapir/.config/kitty/kitty-themes/01-Wallust.conf[0m'
+  * Templated [1mcava[0m to '[3m/var/home/nokiapapir/.config/cava/config[0m'
+  * Templated [1mrofi[0m to '[3m/var/home/nokiapapir/.config/rofi/wallust/colors-rofi.rasi[0m'
+[[1m[34mI[39m[0m] [1m[35mcache[39m[0m: Saving scheme to cache.
+
+[5m[1m[38;2;123;211;198mE [39m[0m[0m[5m[1m[38;2;8;184;157mN [39m[0m[0m[5m[1m[38;2;7;167;143mJ [39m[0m[0m[5m[1m[38;2;6;114;99mO [39m[0m[0m[5m[1m[38;2;4;116;62mY [39m[0m[0m[9m  [0m[5m[1m[38;2;3;53;48mT [39m[0m[0m[5m[1m[38;2;3;44;41mH [39m[0m[0m[5m[1m[38;2;86;148;138mE [39m[0m[0m[9m  [0m[5m[1m[38;2;123;211;198mP [39m[0m[0m[5m[1m[38;2;6;138;118mA [39m[0m[0m[5m[1m[38;2;6;125;107mL [39m[0m[0m[5m[1m[38;2;4;85;74mE [39m[0m[0m[5m[1m[38;2;3;87;47mT [39m[0m[0m[5m[1m[38;2;2;40;36mT [39m[0m[0m[5m[1m[38;2;2;33;31mE [39m[0m[0m[5m[1m[38;2;169;230;221m! [39m[0m[0m
