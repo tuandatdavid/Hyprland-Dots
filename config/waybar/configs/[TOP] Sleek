@@ -17,12 +17,11 @@
 "margin-top": 2,
 	
 "modules-left": [
-	"custom/menu",
+	"hyprland/window",
 	"custom/separator#blank_2",
 	"hyprland/workspaces",
 	"custom/separator#blank_2",
 	"mpris",
-	"tray"
 ],
 
 "modules-center": [
@@ -34,7 +33,8 @@
 ],
 		
 "modules-right": [
-	"hyprland/window",
+	"tray",
+	"battery",
 	"custom/separator#blank_2",
 	"pulseaudio",
 	"custom/separator#blank",
