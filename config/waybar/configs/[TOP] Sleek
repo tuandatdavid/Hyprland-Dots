@@ -17,11 +17,12 @@
 "margin-top": 2,
 	
 "modules-left": [
+	"custom/separator#blank_2",
 	"custom/nightlight",
 	"custom/separator#blank_2",
 	"hyprland/window",
 	"custom/separator#blank_2",
-	"hyprland/workspaces",
+	"hyprland/workspaces#roman",
 	"custom/separator#blank_2",
 	"mpris",
 ],
@@ -36,8 +37,9 @@
 		
 "modules-right": [
 	"tray",
+	"custom/separator#blank_3",
 	"battery",
-	"custom/separator#blank_2",
+	"custom/separator#blank",
 	"pulseaudio",
 	"custom/separator#blank",
 	"custom/power",					
